@@ -1,5 +1,5 @@
 import Form from "./components/Form"
-import { useReducer, useEffect } from 'react'
+import { useReducer, useEffect, useMemo } from 'react'
 import { activityReducer, initialState } from "./reducers/activity-reducer"
 import ActivityList from "./components/ActivityList";
 import CalorieTracker from "./components/CalorieTracker";
