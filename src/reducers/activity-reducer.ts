@@ -28,5 +28,12 @@ export const activityReducer = (
             }
         }
 
+        if(action.type === 'set-activeId'){
+            return{
+                ...state,
+                activeId: action.payload.id
+            }
+        }
+
     return state
 }
